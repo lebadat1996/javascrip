@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>javacoban</title>
+</head>
+<body>
+<button type="button" onclick="showMessage();">Click Me!</button>
+<script>
+    function showMessage(){
+        alert('Xin chào!');
+    }
+</script>
+<br>
+<div id="messageDiv"></div>
+<button type="button" onclick="showMessage();">Click Me!</button>
+<script>
+    function showMessage(){
+        document.getElementById('messageDiv').innerHTML = 'Xin chào!';
+    }
+</script>
+<br>
+<button type="button" onclick="showMessage();">Click Me!</button>
+<script>
+    function showMessage(){
+        document.write('Xin chào!');
+    }
+</script>
+<br>
+<button type="button" onclick="showMessage();">Click Me!</button>
+<script>
+    function showMessage(){
+        console.log('Xin chào!');
+    }
+</script>
+</body>
+</html>
